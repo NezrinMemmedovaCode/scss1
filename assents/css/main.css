@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 72px;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+nav .nav2 ul {
+  display: flex;
+  gap: 25px;
+}
+nav .nav2 ul a {
+  color: white;
+}
+nav a:hover {
+  opacity: 0.5;
+}
+nav .nav1:hover {
+  opacity: 0.5;
+}
+
+.button1 {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    color: black;
+  }
+  .button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+  }
+  .nav2 {
+    display: none;
+  }
+}
+.hero div {
+  background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.52), rgba(51, 51, 51, 0.73)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 550px;
+  background-color: silver;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.hero h2 {
+  font-size: 90px;
+}
+.hero p {
+  font-size: 25px;
+  gap: 10px;
+}
+
+.basliq1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  gap: 15px;
+  border-bottom: 1px solid black;
+}
+.basliq1 a {
+  color: black;
+}
+.basliq1 h3 {
+  font-weight: bold;
+  font-size: 40px;
+  gap: 15px;
+}
+.basliq1 p {
+  font-size: 30px;
+}
+.basliq1 .paraqraf1 {
+  font-size: 20px;
+}
+.basliq1 a:hover {
+  color: #0085A1;
+}
+
+.basliq2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  gap: 15px;
+  border-bottom: 1px solid black;
+}
+.basliq2 a {
+  color: black;
+}
+.basliq2 h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.basliq2 p {
+  font-size: 20px;
+}
+.basliq2 a:hover {
+  color: #0085A1;
+}
+
+.basliq3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  gap: 15px;
+  border-bottom: 1px solid black;
+}
+.basliq3 h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.basliq3 p {
+  font-size: 30px;
+}
+.basliq3 span {
+  font-size: 20px;
+}
+.basliq3 a {
+  color: black;
+}
+.basliq3 a:hover {
+  color: #0085A1;
+}
+
+.buttonn {
+  width: 100%;
+  padding: 20px;
+  background-color: blue;
+}
+.buttonn .button2 {
+  color: white;
+  background-color: #0085A1;
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+}/*# sourceMappingURL=main.css.map */
