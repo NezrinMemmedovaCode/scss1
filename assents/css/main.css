@@ -6,6 +6,28 @@
   list-style: none;
 }
 
+.iconss {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0.8;
+}
+.iconss p {
+  font-size: 20px;
+  opacity: 0.7;
+}
+.iconss .icons {
+  gap: 25px;
+  font-size: 50px;
+}
+.iconss .icons:hover {
+  color: #0085A1;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -35,6 +57,10 @@ nav .nav1:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  nav {
+    background-color: white;
+    height: 72px;
+  }
   h1 {
     color: black;
   }
@@ -52,6 +78,66 @@ nav .nav1:hover {
     display: none;
   }
 }
+.hero4 div {
+  background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.52), rgba(51, 51, 51, 0.73)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/contact-bg.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 550px;
+  background-color: silver;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.hero4 h2 {
+  font-size: 90px;
+}
+.hero4 p {
+  font-size: 28px;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1200px;
+  gap: 100px;
+}
+.form p {
+  font-size: 25px;
+  max-width: 600px;
+}
+.form input {
+  border: none;
+  width: 580px;
+  border-bottom: 1px solid black;
+  height: 100px;
+  font-size: 25px;
+  opacity: 0.6;
+}
+
+.button3 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin: auto;
+  max-width: 40%;
+  height: 50px;
+}
+.button3 button {
+  background-color: #0085A1;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+}
+
 .hero div {
   background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.52), rgba(51, 51, 51, 0.73)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
   background-repeat: no-repeat;
@@ -157,14 +243,213 @@ nav .nav1:hover {
 }
 
 .buttonn {
-  width: 100%;
+  width: 70%;
   padding: 20px;
-  background-color: blue;
+  display: flex;
+  justify-content: end;
 }
 .buttonn .button2 {
+  margin-left: 150px;
   color: white;
   background-color: #0085A1;
   width: 150px;
   height: 50px;
   border: 1px solid white;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 72px;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+nav .nav2 ul {
+  display: flex;
+  gap: 25px;
+}
+nav .nav2 ul a {
+  color: white;
+}
+nav a:hover {
+  opacity: 0.5;
+}
+nav .nav1:hover {
+  opacity: 0.5;
+}
+
+.button1 {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    color: black;
+  }
+  .button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+  }
+  .nav2 {
+    display: none;
+  }
+}
+.hero2 div {
+  background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.52), rgba(51, 51, 51, 0.73)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 550px;
+  background-color: silver;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.hero2 h2 {
+  font-size: 90px;
+}
+.hero2 p {
+  font-size: 25px;
+  gap: 10px;
+}
+
+.paraqraflar {
+  max-width: 700px;
+  height: 550px;
+  gap: 60px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 72px;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+nav .nav2 ul {
+  display: flex;
+  gap: 25px;
+}
+nav .nav2 ul a {
+  color: white;
+}
+nav a:hover {
+  opacity: 0.5;
+}
+nav .nav1:hover {
+  opacity: 0.5;
+}
+
+.button1 {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    color: black;
+  }
+  .button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+  }
+  .nav2 {
+    display: none;
+  }
+}
+.hero3 div {
+  background-image: linear-gradient(to bottom, rgba(23, 23, 23, 0.52), rgba(24, 24, 24, 0.73)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 700px;
+  background-color: silver;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  gap: 20px;
+}
+.hero3 h2 {
+  font-size: 70px;
+  max-width: 700px;
+}
+.hero3 p {
+  font-size: 35px;
+  gap: 10px;
+}
+.hero3 span {
+  font-size: 20px;
+}
+
+.metnler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 40px;
+  font-size: 22px;
+  max-width: 700px;
+  height: 2500px;
+}
+.metnler span {
+  opacity: 0.6;
+}
+.metnler a {
+  text-decoration: underline;
+  color: black;
+}
+.metnler a:hover {
+  color: #0085A1;
+}
+
+.iconss {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0.8;
+}
+.iconss p {
+  font-size: 20px;
+  opacity: 0.7;
+}
+.iconss .icons {
+  gap: 25px;
+  font-size: 50px;
+}
+.iconss .icons:hover {
+  color: #0085A1;
 }/*# sourceMappingURL=main.css.map */
